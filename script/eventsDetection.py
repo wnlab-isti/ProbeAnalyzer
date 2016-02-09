@@ -49,7 +49,7 @@ flagarray = np.zeros((len(dataset),1))
 #statisticsProbe = {0:0,1:0,2:0,3:0,4:0}
 probeList = {'70:b3:d5:45:f1:d4','70:b3:d5:45:f3:b5','70:b3:d5:45:f1:de','70:b3:d5:45:f0:fa','70:b3:d5:45:f1:c6'}
 
-f=open('eventsDetection_3sec_MAC_Data.txt', 'a')
+f=open('./results/eventsDetection_3sec_MAC_Data.txt', 'a')
 secondsRange = 3
 
 if dataset:
